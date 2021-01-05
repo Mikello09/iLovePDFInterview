@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848F67E525A50F6E00EF069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E425A50F6E00EF069A /* AppDelegate.swift */; };
+		848F67E725A50F6E00EF069A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E625A50F6E00EF069A /* SceneDelegate.swift */; };
+		848F67E925A50F6E00EF069A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E825A50F6E00EF069A /* ViewController.swift */; };
+		848F67EC25A50F6E00EF069A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F67EA25A50F6E00EF069A /* Main.storyboard */; };
+		848F67EF25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */; };
+		848F67F125A50F7100EF069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F025A50F7100EF069A /* Assets.xcassets */; };
+		848F67F425A50F7100EF069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F225A50F7100EF069A /* LaunchScreen.storyboard */; };
+		848F67FF25A50F7100EF069A /* ILovePdfInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */; };
+		848F680A25A50F7100EF069A /* ILovePdfInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F680925A50F7100EF069A /* ILovePdfInterviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848F67FB25A50F7100EF069A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848F67D925A50F6E00EF069A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848F67E025A50F6E00EF069A;
+			remoteInfo = ILovePdfInterview;
+		};
+		848F680625A50F7100EF069A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848F67D925A50F6E00EF069A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848F67E025A50F6E00EF069A;
+			remoteInfo = ILovePdfInterview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848F67E125A50F6E00EF069A /* ILovePdfInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILovePdfInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F67E425A50F6E00EF069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848F67E625A50F6E00EF069A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		848F67E825A50F6E00EF069A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848F67EB25A50F6E00EF069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848F67EE25A50F6E00EF069A /* ILovePdfInterview.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ILovePdfInterview.xcdatamodel; sourceTree = "<group>"; };
+		848F67F025A50F7100EF069A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848F67F325A50F7100EF069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848F67F525A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F67FA25A50F7100EF069A /* ILovePdfInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILovePdfInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILovePdfInterviewTests.swift; sourceTree = "<group>"; };
+		848F680025A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F680525A50F7100EF069A /* ILovePdfInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILovePdfInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848F680925A50F7100EF069A /* ILovePdfInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILovePdfInterviewUITests.swift; sourceTree = "<group>"; };
+		848F680B25A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848F67DE25A50F6E00EF069A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F67F725A50F7100EF069A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F680225A50F7100EF069A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848F67D825A50F6E00EF069A = {
+			isa = PBXGroup;
+			children = (
+				848F67E325A50F6E00EF069A /* ILovePdfInterview */,
+				848F67FD25A50F7100EF069A /* ILovePdfInterviewTests */,
+				848F680825A50F7100EF069A /* ILovePdfInterviewUITests */,
+				848F67E225A50F6E00EF069A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848F67E225A50F6E00EF069A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848F67E125A50F6E00EF069A /* ILovePdfInterview.app */,
+				848F67FA25A50F7100EF069A /* ILovePdfInterviewTests.xctest */,
+				848F680525A50F7100EF069A /* ILovePdfInterviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848F67E325A50F6E00EF069A /* ILovePdfInterview */ = {
+			isa = PBXGroup;
+			children = (
+				848F67E425A50F6E00EF069A /* AppDelegate.swift */,
+				848F67E625A50F6E00EF069A /* SceneDelegate.swift */,
+				848F67E825A50F6E00EF069A /* ViewController.swift */,
+				848F67EA25A50F6E00EF069A /* Main.storyboard */,
+				848F67F025A50F7100EF069A /* Assets.xcassets */,
+				848F67F225A50F7100EF069A /* LaunchScreen.storyboard */,
+				848F67F525A50F7100EF069A /* Info.plist */,
+				848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */,
+			);
+			path = ILovePdfInterview;
+			sourceTree = "<group>";
+		};
+		848F67FD25A50F7100EF069A /* ILovePdfInterviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */,
+				848F680025A50F7100EF069A /* Info.plist */,
+			);
+			path = ILovePdfInterviewTests;
+			sourceTree = "<group>";
+		};
+		848F680825A50F7100EF069A /* ILovePdfInterviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848F680925A50F7100EF069A /* ILovePdfInterviewUITests.swift */,
+				848F680B25A50F7100EF069A /* Info.plist */,
+			);
+			path = ILovePdfInterviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848F67E025A50F6E00EF069A /* ILovePdfInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848F680E25A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterview" */;
+			buildPhases = (
+				848F67DD25A50F6E00EF069A /* Sources */,
+				848F67DE25A50F6E00EF069A /* Frameworks */,
+				848F67DF25A50F6E00EF069A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ILovePdfInterview;
+			productName = ILovePdfInterview;
+			productReference = 848F67E125A50F6E00EF069A /* ILovePdfInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848F67F925A50F7100EF069A /* ILovePdfInterviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848F681125A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterviewTests" */;
+			buildPhases = (
+				848F67F625A50F7100EF069A /* Sources */,
+				848F67F725A50F7100EF069A /* Frameworks */,
+				848F67F825A50F7100EF069A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848F67FC25A50F7100EF069A /* PBXTargetDependency */,
+			);
+			name = ILovePdfInterviewTests;
+			productName = ILovePdfInterviewTests;
+			productReference = 848F67FA25A50F7100EF069A /* ILovePdfInterviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848F680425A50F7100EF069A /* ILovePdfInterviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848F681425A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterviewUITests" */;
+			buildPhases = (
+				848F680125A50F7100EF069A /* Sources */,
+				848F680225A50F7100EF069A /* Frameworks */,
+				848F680325A50F7100EF069A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848F680725A50F7100EF069A /* PBXTargetDependency */,
+			);
+			name = ILovePdfInterviewUITests;
+			productName = ILovePdfInterviewUITests;
+			productReference = 848F680525A50F7100EF069A /* ILovePdfInterviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848F67D925A50F6E00EF069A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					848F67E025A50F6E00EF069A = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					848F67F925A50F7100EF069A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 848F67E025A50F6E00EF069A;
+					};
+					848F680425A50F7100EF069A = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 848F67E025A50F6E00EF069A;
+					};
+				};
+			};
+			buildConfigurationList = 848F67DC25A50F6E00EF069A /* Build configuration list for PBXProject "ILovePdfInterview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848F67D825A50F6E00EF069A;
+			productRefGroup = 848F67E225A50F6E00EF069A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848F67E025A50F6E00EF069A /* ILovePdfInterview */,
+				848F67F925A50F7100EF069A /* ILovePdfInterviewTests */,
+				848F680425A50F7100EF069A /* ILovePdfInterviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848F67DF25A50F6E00EF069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F67F425A50F7100EF069A /* LaunchScreen.storyboard in Resources */,
+				848F67F125A50F7100EF069A /* Assets.xcassets in Resources */,
+				848F67EC25A50F6E00EF069A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F67F825A50F7100EF069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F680325A50F7100EF069A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848F67DD25A50F6E00EF069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F67EF25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld in Sources */,
+				848F67E925A50F6E00EF069A /* ViewController.swift in Sources */,
+				848F67E525A50F6E00EF069A /* AppDelegate.swift in Sources */,
+				848F67E725A50F6E00EF069A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F67F625A50F7100EF069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F67FF25A50F7100EF069A /* ILovePdfInterviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848F680125A50F7100EF069A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F680A25A50F7100EF069A /* ILovePdfInterviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848F67FC25A50F7100EF069A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848F67E025A50F6E00EF069A /* ILovePdfInterview */;
+			targetProxy = 848F67FB25A50F7100EF069A /* PBXContainerItemProxy */;
+		};
+		848F680725A50F7100EF069A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848F67E025A50F6E00EF069A /* ILovePdfInterview */;
+			targetProxy = 848F680625A50F7100EF069A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848F67EA25A50F6E00EF069A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848F67EB25A50F6E00EF069A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848F67F225A50F7100EF069A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848F67F325A50F7100EF069A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848F680C25A50F7100EF069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848F680D25A50F7100EF069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848F680F25A50F7100EF069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848F681025A50F7100EF069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		848F681225A50F7100EF069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILovePdfInterview.app/ILovePdfInterview";
+			};
+			name = Debug;
+		};
+		848F681325A50F7100EF069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ILovePdfInterview.app/ILovePdfInterview";
+			};
+			name = Release;
+		};
+		848F681525A50F7100EF069A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILovePdfInterview;
+			};
+			name = Debug;
+		};
+		848F681625A50F7100EF069A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = ILovePdfInterviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ILovePdfInterview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848F67DC25A50F6E00EF069A /* Build configuration list for PBXProject "ILovePdfInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F680C25A50F7100EF069A /* Debug */,
+				848F680D25A50F7100EF069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848F680E25A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F680F25A50F7100EF069A /* Debug */,
+				848F681025A50F7100EF069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848F681125A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F681225A50F7100EF069A /* Debug */,
+				848F681325A50F7100EF069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848F681425A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848F681525A50F7100EF069A /* Debug */,
+				848F681625A50F7100EF069A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848F67EE25A50F6E00EF069A /* ILovePdfInterview.xcdatamodel */,
+			);
+			currentVersion = 848F67EE25A50F6E00EF069A /* ILovePdfInterview.xcdatamodel */;
+			path = ILovePdfInterview.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 848F67D925A50F6E00EF069A /* Project object */;
+}
