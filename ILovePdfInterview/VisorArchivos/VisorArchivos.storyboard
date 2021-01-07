@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Visor Archivos View Controller-->
+        <scene sceneID="eMK-G3-QUw">
+            <objects>
+                <viewController storyboardIdentifier="visorArchivosStoryboard" id="8gY-bg-qZO" customClass="VisorArchivosViewController" customModule="ILovePdfInterview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KvC-Y6-ebs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="adt-PO-V4i">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wAM-L4-TwU"/>
+                        <color key="backgroundColor" name="GrisFondo"/>
+                        <constraints>
+                            <constraint firstItem="adt-PO-V4i" firstAttribute="leading" secondItem="wAM-L4-TwU" secondAttribute="leading" id="25S-Pe-cfD"/>
+                            <constraint firstItem="adt-PO-V4i" firstAttribute="top" secondItem="wAM-L4-TwU" secondAttribute="top" id="5qt-kU-sDl"/>
+                            <constraint firstItem="wAM-L4-TwU" firstAttribute="bottom" secondItem="adt-PO-V4i" secondAttribute="bottom" id="I2F-GD-2lt"/>
+                            <constraint firstItem="wAM-L4-TwU" firstAttribute="trailing" secondItem="adt-PO-V4i" secondAttribute="trailing" id="oaS-pL-7Nf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fileContainer" destination="adt-PO-V4i" id="JSN-e6-I5C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="58M-Mr-uge" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="91"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GrisFondo">
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

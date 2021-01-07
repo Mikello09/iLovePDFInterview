@@ -3,10 +3,112 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8428BA5A25A6CA350055B4C3 /* DownloadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA5925A6CA350055B4C3 /* DownloadInteractor.swift */; };
+		8428BA5B25A6CA350055B4C3 /* DownloadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA5925A6CA350055B4C3 /* DownloadInteractor.swift */; };
+		8428BA6625A6CB6E0055B4C3 /* DownloadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6525A6CB6E0055B4C3 /* DownloadWorker.swift */; };
+		8428BA6725A6CB6E0055B4C3 /* DownloadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6525A6CB6E0055B4C3 /* DownloadWorker.swift */; };
+		8428BA7025A6E4260055B4C3 /* CompletadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6F25A6E4260055B4C3 /* CompletadoViewController.swift */; };
+		8428BA7125A6E4260055B4C3 /* CompletadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6F25A6E4260055B4C3 /* CompletadoViewController.swift */; };
+		8428BA7925A6E45C0055B4C3 /* Completado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA7825A6E45C0055B4C3 /* Completado.storyboard */; };
+		8428BA7A25A6E45C0055B4C3 /* Completado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA7825A6E45C0055B4C3 /* Completado.storyboard */; };
+		8428BA7F25A6E4DD0055B4C3 /* CompletadoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA7E25A6E4DD0055B4C3 /* CompletadoRouter.swift */; };
+		8428BA8025A6E4DD0055B4C3 /* CompletadoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA7E25A6E4DD0055B4C3 /* CompletadoRouter.swift */; };
+		8428BA8525A6E5480055B4C3 /* CompletadoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8425A6E5480055B4C3 /* CompletadoPresenter.swift */; };
+		8428BA8625A6E5480055B4C3 /* CompletadoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8425A6E5480055B4C3 /* CompletadoPresenter.swift */; };
+		8428BA8E25A6F1B70055B4C3 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8D25A6F1B70055B4C3 /* MainRouter.swift */; };
+		8428BA8F25A6F1B70055B4C3 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8D25A6F1B70055B4C3 /* MainRouter.swift */; };
+		8428BA9725A6F5A50055B4C3 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9625A6F5A50055B4C3 /* LocalFileManager.swift */; };
+		8428BA9825A6F5A50055B4C3 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9625A6F5A50055B4C3 /* LocalFileManager.swift */; };
+		8428BA9E25A72D8A0055B4C3 /* ArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9D25A72D8A0055B4C3 /* ArchivosViewController.swift */; };
+		8428BA9F25A72D8A0055B4C3 /* ArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9D25A72D8A0055B4C3 /* ArchivosViewController.swift */; };
+		8428BAA725A72DB80055B4C3 /* ArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAA625A72DB80055B4C3 /* ArchivosPresenter.swift */; };
+		8428BAA825A72DB80055B4C3 /* ArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAA625A72DB80055B4C3 /* ArchivosPresenter.swift */; };
+		8428BAAE25A7314A0055B4C3 /* ArchivoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAAD25A7314A0055B4C3 /* ArchivoCell.swift */; };
+		8428BAB625A7315E0055B4C3 /* ArchivoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428BAB525A7315E0055B4C3 /* ArchivoCell.xib */; };
+		8428BABC25A736BD0055B4C3 /* VisorArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BABB25A736BD0055B4C3 /* VisorArchivosViewController.swift */; };
+		8428BABD25A736BD0055B4C3 /* VisorArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BABB25A736BD0055B4C3 /* VisorArchivosViewController.swift */; };
+		8428BAC525A736EE0055B4C3 /* VisorArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BAC425A736EE0055B4C3 /* VisorArchivos.storyboard */; };
+		8428BAC625A736EE0055B4C3 /* VisorArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BAC425A736EE0055B4C3 /* VisorArchivos.storyboard */; };
+		8428BACB25A737240055B4C3 /* VisorArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BACA25A737240055B4C3 /* VisorArchivosRouter.swift */; };
+		8428BACC25A737240055B4C3 /* VisorArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BACA25A737240055B4C3 /* VisorArchivosRouter.swift */; };
+		8428BAD525A7A3E50055B4C3 /* HerramientasPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAD325A7A3E50055B4C3 /* HerramientasPresenterTest.swift */; };
+		8428BAE225A7A7E70055B4C3 /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F693D25A6886000EF069A /* FileItemView.swift */; };
+		8428BAE625A7A7F90055B4C3 /* ArchivoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAAD25A7314A0055B4C3 /* ArchivoCell.swift */; };
+		8428BAF325A7B6B60055B4C3 /* CompletadoPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAF125A7B6B60055B4C3 /* CompletadoPresenterTest.swift */; };
+		8428BAFE25A7B89D0055B4C3 /* NivelCompresionPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAFD25A7B89D0055B4C3 /* NivelCompresionPresenterTest.swift */; };
+		8428BB0625A7BC2D0055B4C3 /* SeleccionarArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68CE25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift */; };
+		8428BB0725A7BC2D0055B4C3 /* HerramientaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689D25A62BC300EF069A /* HerramientaCell.swift */; };
+		8428BB0825A7BC2D0055B4C3 /* ArchivosLocalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F690725A6696700EF069A /* ArchivosLocalesViewController.swift */; };
+		8428BB0925A7BC2D0055B4C3 /* VisorArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BACA25A737240055B4C3 /* VisorArchivosRouter.swift */; };
+		8428BB0A25A7BC2D0055B4C3 /* VisorArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BABB25A736BD0055B4C3 /* VisorArchivosViewController.swift */; };
+		8428BB0B25A7BC2D0055B4C3 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B225A63AD000EF069A /* Colors.swift */; };
+		8428BB0C25A7BC2D0055B4C3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68EE25A64BE300EF069A /* BaseViewController.swift */; };
+		8428BB0D25A7BC2D0055B4C3 /* CustomColumnFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68AC25A633E700EF069A /* CustomColumnFlow.swift */; };
+		8428BB0E25A7BC2D0055B4C3 /* ILovePdfInterview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */; };
+		8428BB0F25A7BC2D0055B4C3 /* AuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687F25A61D0A00EF069A /* AuthenticationInteractor.swift */; };
+		8428BB1025A7BC2D0055B4C3 /* DownloadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6525A6CB6E0055B4C3 /* DownloadWorker.swift */; };
+		8428BB1125A7BC2D0055B4C3 /* NivelCompresionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696025A6986000EF069A /* NivelCompresionRouter.swift */; };
+		8428BB1225A7BC2D0055B4C3 /* HerramientasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F688D25A6285900EF069A /* HerramientasViewController.swift */; };
+		8428BB1325A7BC2D0055B4C3 /* SeleccionarArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68C225A63D2200EF069A /* SeleccionarArchivosRouter.swift */; };
+		8428BB1425A7BC2D0055B4C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E825A50F6E00EF069A /* ViewController.swift */; };
+		8428BB1525A7BC2D0055B4C3 /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69A225A6A81E00EF069A /* StartInteractor.swift */; };
+		8428BB1625A7BC2D0055B4C3 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8D25A6F1B70055B4C3 /* MainRouter.swift */; };
+		8428BB1725A7BC2D0055B4C3 /* HerramientasPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689625A628E500EF069A /* HerramientasPresenter.swift */; };
+		8428BB1825A7BC2D0055B4C3 /* NivelCompresionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F697625A69BA200EF069A /* NivelCompresionPresenter.swift */; };
+		8428BB1925A7BC2D0055B4C3 /* ProcessInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69E025A6B44100EF069A /* ProcessInteractor.swift */; };
+		8428BB1C25A7BC2D0055B4C3 /* ArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9D25A72D8A0055B4C3 /* ArchivosViewController.swift */; };
+		8428BB1D25A7BC2D0055B4C3 /* FilesFromCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68D525A63FB500EF069A /* FilesFromCell.swift */; };
+		8428BB1E25A7BC2D0055B4C3 /* SeleccionarArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B925A63CF200EF069A /* SeleccionarArchivosViewController.swift */; };
+		8428BB2025A7BC2D0055B4C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E425A50F6E00EF069A /* AppDelegate.swift */; };
+		8428BB2125A7BC2D0055B4C3 /* ArchivosLocalesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F691325A669BA00EF069A /* ArchivosLocalesRouter.swift */; };
+		8428BB2225A7BC2D0055B4C3 /* CompletadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA6F25A6E4260055B4C3 /* CompletadoViewController.swift */; };
+		8428BB2325A7BC2D0055B4C3 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69B425A6A8C600EF069A /* BaseInteractor.swift */; };
+		8428BB2425A7BC2D0055B4C3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687825A617F100EF069A /* Extensions.swift */; };
+		8428BB2525A7BC2D0055B4C3 /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F693D25A6886000EF069A /* FileItemView.swift */; };
+		8428BB2625A7BC2D0055B4C3 /* CompresionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696A25A69A0400EF069A /* CompresionItemCell.swift */; };
+		8428BB2725A7BC2D0055B4C3 /* DownloadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA5925A6CA350055B4C3 /* DownloadInteractor.swift */; };
+		8428BB2825A7BC2D0055B4C3 /* BaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F684525A51F3B00EF069A /* BaseWorker.swift */; };
+		8428BB2925A7BC2D0055B4C3 /* NivelCompresionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F695125A6981300EF069A /* NivelCompresionViewController.swift */; };
+		8428BB2A25A7BC2D0055B4C3 /* CompletadoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA7E25A6E4DD0055B4C3 /* CompletadoRouter.swift */; };
+		8428BB2B25A7BC2D0055B4C3 /* ArchivosLocalesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F694A25A68DDF00EF069A /* ArchivosLocalesPresenter.swift */; };
+		8428BB2C25A7BC2D0055B4C3 /* ArchivoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAAD25A7314A0055B4C3 /* ArchivoCell.swift */; };
+		8428BB2D25A7BC2D0055B4C3 /* CompletadoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA8425A6E5480055B4C3 /* CompletadoPresenter.swift */; };
+		8428BB3025A7BC2D0055B4C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E625A50F6E00EF069A /* SceneDelegate.swift */; };
+		8428BB3125A7BC2D0055B4C3 /* TaskFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68F825A663F400EF069A /* TaskFlowManager.swift */; };
+		8428BB3225A7BC2D0055B4C3 /* ArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BAA625A72DB80055B4C3 /* ArchivosPresenter.swift */; };
+		8428BB3325A7BC2D0055B4C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F681B25A51D3E00EF069A /* MainViewController.swift */; };
+		8428BB3425A7BC2D0055B4C3 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BA9625A6F5A50055B4C3 /* LocalFileManager.swift */; };
+		8428BB3625A7BC2D0055B4C3 /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8428BB0325A7BC2D0055B4C3 /* PSPDFKit */; };
+		8428BB3825A7BC2D0055B4C3 /* NivelCompresion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F695A25A6983C00EF069A /* NivelCompresion.storyboard */; };
+		8428BB3925A7BC2D0055B4C3 /* HerramientaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68A625A62BD100EF069A /* HerramientaCell.xib */; };
+		8428BB3A25A7BC2D0055B4C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F225A50F7100EF069A /* LaunchScreen.storyboard */; };
+		8428BB3B25A7BC2D0055B4C3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848F686F25A6179700EF069A /* Localizable.strings */; };
+		8428BB3C25A7BC2D0055B4C3 /* ArchivosLocales.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F690D25A6698C00EF069A /* ArchivosLocales.storyboard */; };
+		8428BB3D25A7BC2D0055B4C3 /* VisorArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BAC425A736EE0055B4C3 /* VisorArchivos.storyboard */; };
+		8428BB3E25A7BC2D0055B4C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F025A50F7100EF069A /* Assets.xcassets */; };
+		8428BB3F25A7BC2D0055B4C3 /* SeleccionarArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F68C825A63D4100EF069A /* SeleccionarArchivos.storyboard */; };
+		8428BB4025A7BC2D0055B4C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F67EA25A50F6E00EF069A /* Main.storyboard */; };
+		8428BB4125A7BC2D0055B4C3 /* Completado.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8428BA7825A6E45C0055B4C3 /* Completado.storyboard */; };
+		8428BB4225A7BC2D0055B4C3 /* FileItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F694525A6887C00EF069A /* FileItemView.xib */; };
+		8428BB4325A7BC2D0055B4C3 /* FilesFromCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68DE25A63FC100EF069A /* FilesFromCell.xib */; };
+		8428BB4425A7BC2D0055B4C3 /* CompresionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F697025A69A2000EF069A /* CompresionItemCell.xib */; };
+		8428BB4525A7BC2D0055B4C3 /* ArchivoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8428BAB525A7315E0055B4C3 /* ArchivoCell.xib */; };
+		8428BB5525A7BD500055B4C3 /* AuthenticationWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5425A7BD500055B4C3 /* AuthenticationWorkerDemo.swift */; };
+		8428BB7125A7C3660055B4C3 /* AuthenticationWorkerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5E25A7C1D10055B4C3 /* AuthenticationWorkerTest.swift */; };
+		8428BB7A25A7C3BF0055B4C3 /* AuthenticationWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB5425A7BD500055B4C3 /* AuthenticationWorkerDemo.swift */; };
+		8428BB8425A7C5530055B4C3 /* StartWorkerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB8325A7C5530055B4C3 /* StartWorkerTest.swift */; };
+		8428BB8A25A7C56D0055B4C3 /* StartWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB8925A7C56D0055B4C3 /* StartWorkerDemo.swift */; };
+		8428BB8B25A7C56D0055B4C3 /* StartWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BB8925A7C56D0055B4C3 /* StartWorkerDemo.swift */; };
+		8428BBA125A7C6DA0055B4C3 /* UploadWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BBA025A7C6DA0055B4C3 /* UploadWorkerDemo.swift */; };
+		8428BBA225A7C6DA0055B4C3 /* UploadWorkerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BBA025A7C6DA0055B4C3 /* UploadWorkerDemo.swift */; };
+		8428BBA825A7C7630055B4C3 /* UploadWorkerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8428BBA725A7C7630055B4C3 /* UploadWorkerTest.swift */; };
+		8428BBB525A7C8DD0055B4C3 /* UploadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69CB25A6AECD00EF069A /* UploadInteractor.swift */; };
+		8428BBCD25A7CD2C0055B4C3 /* ProcessWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F683925A51F2800EF069A /* ProcessWorker.swift */; };
+		8428BBCE25A7CD2D0055B4C3 /* ProcessWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F683925A51F2800EF069A /* ProcessWorker.swift */; };
 		848F67E525A50F6E00EF069A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E425A50F6E00EF069A /* AppDelegate.swift */; };
 		848F67E725A50F6E00EF069A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E625A50F6E00EF069A /* SceneDelegate.swift */; };
 		848F67E925A50F6E00EF069A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67E825A50F6E00EF069A /* ViewController.swift */; };
@@ -14,8 +116,78 @@
 		848F67EF25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */; };
 		848F67F125A50F7100EF069A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F025A50F7100EF069A /* Assets.xcassets */; };
 		848F67F425A50F7100EF069A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F67F225A50F7100EF069A /* LaunchScreen.storyboard */; };
-		848F67FF25A50F7100EF069A /* ILovePdfInterviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */; };
 		848F680A25A50F7100EF069A /* ILovePdfInterviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F680925A50F7100EF069A /* ILovePdfInterviewUITests.swift */; };
+		848F681C25A51D3E00EF069A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F681B25A51D3E00EF069A /* MainViewController.swift */; };
+		848F682525A51EF500EF069A /* AuthenticationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F682425A51EF500EF069A /* AuthenticationWorker.swift */; };
+		848F682E25A51F0400EF069A /* StartWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F682D25A51F0400EF069A /* StartWorker.swift */; };
+		848F683425A51F1F00EF069A /* UploadWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F683325A51F1F00EF069A /* UploadWorker.swift */; };
+		848F683A25A51F2800EF069A /* ProcessWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F683925A51F2800EF069A /* ProcessWorker.swift */; };
+		848F684625A51F3B00EF069A /* BaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F684525A51F3B00EF069A /* BaseWorker.swift */; };
+		848F684725A51F3B00EF069A /* BaseWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F684525A51F3B00EF069A /* BaseWorker.swift */; };
+		848F687025A6179700EF069A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848F686F25A6179700EF069A /* Localizable.strings */; };
+		848F687125A6179700EF069A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848F686F25A6179700EF069A /* Localizable.strings */; };
+		848F687925A617F100EF069A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687825A617F100EF069A /* Extensions.swift */; };
+		848F687A25A617F100EF069A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687825A617F100EF069A /* Extensions.swift */; };
+		848F688025A61D0A00EF069A /* AuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687F25A61D0A00EF069A /* AuthenticationInteractor.swift */; };
+		848F688125A61D0A00EF069A /* AuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F687F25A61D0A00EF069A /* AuthenticationInteractor.swift */; };
+		848F688E25A6285900EF069A /* HerramientasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F688D25A6285900EF069A /* HerramientasViewController.swift */; };
+		848F688F25A6285900EF069A /* HerramientasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F688D25A6285900EF069A /* HerramientasViewController.swift */; };
+		848F689725A628E500EF069A /* HerramientasPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689625A628E500EF069A /* HerramientasPresenter.swift */; };
+		848F689825A628E500EF069A /* HerramientasPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689625A628E500EF069A /* HerramientasPresenter.swift */; };
+		848F689E25A62BC300EF069A /* HerramientaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689D25A62BC300EF069A /* HerramientaCell.swift */; };
+		848F689F25A62BC300EF069A /* HerramientaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F689D25A62BC300EF069A /* HerramientaCell.swift */; };
+		848F68A725A62BD100EF069A /* HerramientaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68A625A62BD100EF069A /* HerramientaCell.xib */; };
+		848F68A825A62BD100EF069A /* HerramientaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68A625A62BD100EF069A /* HerramientaCell.xib */; };
+		848F68AD25A633E700EF069A /* CustomColumnFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68AC25A633E700EF069A /* CustomColumnFlow.swift */; };
+		848F68AE25A633E700EF069A /* CustomColumnFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68AC25A633E700EF069A /* CustomColumnFlow.swift */; };
+		848F68B325A63AD000EF069A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B225A63AD000EF069A /* Colors.swift */; };
+		848F68B425A63AD000EF069A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B225A63AD000EF069A /* Colors.swift */; };
+		848F68BA25A63CF200EF069A /* SeleccionarArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B925A63CF200EF069A /* SeleccionarArchivosViewController.swift */; };
+		848F68BB25A63CF200EF069A /* SeleccionarArchivosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68B925A63CF200EF069A /* SeleccionarArchivosViewController.swift */; };
+		848F68C325A63D2200EF069A /* SeleccionarArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68C225A63D2200EF069A /* SeleccionarArchivosRouter.swift */; };
+		848F68C425A63D2200EF069A /* SeleccionarArchivosRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68C225A63D2200EF069A /* SeleccionarArchivosRouter.swift */; };
+		848F68C925A63D4100EF069A /* SeleccionarArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F68C825A63D4100EF069A /* SeleccionarArchivos.storyboard */; };
+		848F68CA25A63D4100EF069A /* SeleccionarArchivos.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F68C825A63D4100EF069A /* SeleccionarArchivos.storyboard */; };
+		848F68CF25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68CE25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift */; };
+		848F68D025A63DBA00EF069A /* SeleccionarArchivosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68CE25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift */; };
+		848F68D625A63FB500EF069A /* FilesFromCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68D525A63FB500EF069A /* FilesFromCell.swift */; };
+		848F68D725A63FB500EF069A /* FilesFromCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68D525A63FB500EF069A /* FilesFromCell.swift */; };
+		848F68DF25A63FC100EF069A /* FilesFromCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68DE25A63FC100EF069A /* FilesFromCell.xib */; };
+		848F68E025A63FC100EF069A /* FilesFromCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F68DE25A63FC100EF069A /* FilesFromCell.xib */; };
+		848F68EF25A64BE300EF069A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68EE25A64BE300EF069A /* BaseViewController.swift */; };
+		848F68F025A64BE300EF069A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68EE25A64BE300EF069A /* BaseViewController.swift */; };
+		848F68F925A663F400EF069A /* TaskFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68F825A663F400EF069A /* TaskFlowManager.swift */; };
+		848F68FA25A663F400EF069A /* TaskFlowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F68F825A663F400EF069A /* TaskFlowManager.swift */; };
+		848F690825A6696700EF069A /* ArchivosLocalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F690725A6696700EF069A /* ArchivosLocalesViewController.swift */; };
+		848F690925A6696700EF069A /* ArchivosLocalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F690725A6696700EF069A /* ArchivosLocalesViewController.swift */; };
+		848F690E25A6698C00EF069A /* ArchivosLocales.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F690D25A6698C00EF069A /* ArchivosLocales.storyboard */; };
+		848F690F25A6698C00EF069A /* ArchivosLocales.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F690D25A6698C00EF069A /* ArchivosLocales.storyboard */; };
+		848F691425A669BA00EF069A /* ArchivosLocalesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F691325A669BA00EF069A /* ArchivosLocalesRouter.swift */; };
+		848F691525A669BA00EF069A /* ArchivosLocalesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F691325A669BA00EF069A /* ArchivosLocalesRouter.swift */; };
+		848F693525A685BA00EF069A /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = 848F693425A685BA00EF069A /* PSPDFKit */; };
+		848F693E25A6886000EF069A /* FileItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F693D25A6886000EF069A /* FileItemView.swift */; };
+		848F694625A6887C00EF069A /* FileItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F694525A6887C00EF069A /* FileItemView.xib */; };
+		848F694B25A68DDF00EF069A /* ArchivosLocalesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F694A25A68DDF00EF069A /* ArchivosLocalesPresenter.swift */; };
+		848F694C25A68DDF00EF069A /* ArchivosLocalesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F694A25A68DDF00EF069A /* ArchivosLocalesPresenter.swift */; };
+		848F695225A6981300EF069A /* NivelCompresionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F695125A6981300EF069A /* NivelCompresionViewController.swift */; };
+		848F695325A6981300EF069A /* NivelCompresionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F695125A6981300EF069A /* NivelCompresionViewController.swift */; };
+		848F695B25A6983C00EF069A /* NivelCompresion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F695A25A6983C00EF069A /* NivelCompresion.storyboard */; };
+		848F695C25A6983C00EF069A /* NivelCompresion.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848F695A25A6983C00EF069A /* NivelCompresion.storyboard */; };
+		848F696125A6986000EF069A /* NivelCompresionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696025A6986000EF069A /* NivelCompresionRouter.swift */; };
+		848F696225A6986000EF069A /* NivelCompresionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696025A6986000EF069A /* NivelCompresionRouter.swift */; };
+		848F696B25A69A0400EF069A /* CompresionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696A25A69A0400EF069A /* CompresionItemCell.swift */; };
+		848F696C25A69A0400EF069A /* CompresionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F696A25A69A0400EF069A /* CompresionItemCell.swift */; };
+		848F697125A69A2000EF069A /* CompresionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F697025A69A2000EF069A /* CompresionItemCell.xib */; };
+		848F697225A69A2000EF069A /* CompresionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F697025A69A2000EF069A /* CompresionItemCell.xib */; };
+		848F697725A69BA200EF069A /* NivelCompresionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F697625A69BA200EF069A /* NivelCompresionPresenter.swift */; };
+		848F697825A69BA200EF069A /* NivelCompresionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F697625A69BA200EF069A /* NivelCompresionPresenter.swift */; };
+		848F69A325A6A81E00EF069A /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69A225A6A81E00EF069A /* StartInteractor.swift */; };
+		848F69A425A6A81E00EF069A /* StartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69A225A6A81E00EF069A /* StartInteractor.swift */; };
+		848F69B525A6A8C600EF069A /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69B425A6A8C600EF069A /* BaseInteractor.swift */; };
+		848F69B625A6A8C600EF069A /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69B425A6A8C600EF069A /* BaseInteractor.swift */; };
+		848F69CC25A6AECD00EF069A /* UploadInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69CB25A6AECD00EF069A /* UploadInteractor.swift */; };
+		848F69E125A6B44100EF069A /* ProcessInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69E025A6B44100EF069A /* ProcessInteractor.swift */; };
+		848F69E225A6B44100EF069A /* ProcessInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F69E025A6B44100EF069A /* ProcessInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +208,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8428BA5925A6CA350055B4C3 /* DownloadInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadInteractor.swift; sourceTree = "<group>"; };
+		8428BA6525A6CB6E0055B4C3 /* DownloadWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWorker.swift; sourceTree = "<group>"; };
+		8428BA6F25A6E4260055B4C3 /* CompletadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletadoViewController.swift; sourceTree = "<group>"; };
+		8428BA7825A6E45C0055B4C3 /* Completado.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Completado.storyboard; sourceTree = "<group>"; };
+		8428BA7E25A6E4DD0055B4C3 /* CompletadoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletadoRouter.swift; sourceTree = "<group>"; };
+		8428BA8425A6E5480055B4C3 /* CompletadoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletadoPresenter.swift; sourceTree = "<group>"; };
+		8428BA8D25A6F1B70055B4C3 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		8428BA9625A6F5A50055B4C3 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		8428BA9D25A72D8A0055B4C3 /* ArchivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosViewController.swift; sourceTree = "<group>"; };
+		8428BAA625A72DB80055B4C3 /* ArchivosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosPresenter.swift; sourceTree = "<group>"; };
+		8428BAAD25A7314A0055B4C3 /* ArchivoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivoCell.swift; sourceTree = "<group>"; };
+		8428BAB525A7315E0055B4C3 /* ArchivoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchivoCell.xib; sourceTree = "<group>"; };
+		8428BABB25A736BD0055B4C3 /* VisorArchivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisorArchivosViewController.swift; sourceTree = "<group>"; };
+		8428BAC425A736EE0055B4C3 /* VisorArchivos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VisorArchivos.storyboard; sourceTree = "<group>"; };
+		8428BACA25A737240055B4C3 /* VisorArchivosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisorArchivosRouter.swift; sourceTree = "<group>"; };
+		8428BAD325A7A3E50055B4C3 /* HerramientasPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerramientasPresenterTest.swift; sourceTree = "<group>"; };
+		8428BAF125A7B6B60055B4C3 /* CompletadoPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletadoPresenterTest.swift; sourceTree = "<group>"; };
+		8428BAFD25A7B89D0055B4C3 /* NivelCompresionPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelCompresionPresenterTest.swift; sourceTree = "<group>"; };
+		8428BB4925A7BC2D0055B4C3 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8428BB4A25A7BC2D0055B4C3 /* ILovePdfInterview copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ILovePdfInterview copy-Info.plist"; path = "/Users/usuario/Documents/MIKEL/ILovePdfInterview/ILovePdfInterview/ILovePdfInterview copy-Info.plist"; sourceTree = "<absolute>"; };
+		8428BB5425A7BD500055B4C3 /* AuthenticationWorkerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWorkerDemo.swift; sourceTree = "<group>"; };
+		8428BB5E25A7C1D10055B4C3 /* AuthenticationWorkerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWorkerTest.swift; sourceTree = "<group>"; };
+		8428BB8325A7C5530055B4C3 /* StartWorkerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkerTest.swift; sourceTree = "<group>"; };
+		8428BB8925A7C56D0055B4C3 /* StartWorkerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorkerDemo.swift; sourceTree = "<group>"; };
+		8428BBA025A7C6DA0055B4C3 /* UploadWorkerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadWorkerDemo.swift; sourceTree = "<group>"; };
+		8428BBA725A7C7630055B4C3 /* UploadWorkerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadWorkerTest.swift; sourceTree = "<group>"; };
 		848F67E125A50F6E00EF069A /* ILovePdfInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ILovePdfInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F67E425A50F6E00EF069A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		848F67E625A50F6E00EF069A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,18 +244,65 @@
 		848F67F325A50F7100EF069A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		848F67F525A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848F67FA25A50F7100EF069A /* ILovePdfInterviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILovePdfInterviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILovePdfInterviewTests.swift; sourceTree = "<group>"; };
 		848F680025A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		848F680525A50F7100EF069A /* ILovePdfInterviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILovePdfInterviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		848F680925A50F7100EF069A /* ILovePdfInterviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ILovePdfInterviewUITests.swift; sourceTree = "<group>"; };
 		848F680B25A50F7100EF069A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848F681B25A51D3E00EF069A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		848F682425A51EF500EF069A /* AuthenticationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWorker.swift; sourceTree = "<group>"; };
+		848F682D25A51F0400EF069A /* StartWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWorker.swift; sourceTree = "<group>"; };
+		848F683325A51F1F00EF069A /* UploadWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadWorker.swift; sourceTree = "<group>"; };
+		848F683925A51F2800EF069A /* ProcessWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessWorker.swift; sourceTree = "<group>"; };
+		848F684525A51F3B00EF069A /* BaseWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWorker.swift; sourceTree = "<group>"; };
+		848F686F25A6179700EF069A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		848F687825A617F100EF069A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		848F687F25A61D0A00EF069A /* AuthenticationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationInteractor.swift; sourceTree = "<group>"; };
+		848F688D25A6285900EF069A /* HerramientasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerramientasViewController.swift; sourceTree = "<group>"; };
+		848F689625A628E500EF069A /* HerramientasPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerramientasPresenter.swift; sourceTree = "<group>"; };
+		848F689D25A62BC300EF069A /* HerramientaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HerramientaCell.swift; sourceTree = "<group>"; };
+		848F68A625A62BD100EF069A /* HerramientaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HerramientaCell.xib; sourceTree = "<group>"; };
+		848F68AC25A633E700EF069A /* CustomColumnFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColumnFlow.swift; sourceTree = "<group>"; };
+		848F68B225A63AD000EF069A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		848F68B925A63CF200EF069A /* SeleccionarArchivosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionarArchivosViewController.swift; sourceTree = "<group>"; };
+		848F68C225A63D2200EF069A /* SeleccionarArchivosRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionarArchivosRouter.swift; sourceTree = "<group>"; };
+		848F68C825A63D4100EF069A /* SeleccionarArchivos.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeleccionarArchivos.storyboard; sourceTree = "<group>"; };
+		848F68CE25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionarArchivosPresenter.swift; sourceTree = "<group>"; };
+		848F68D525A63FB500EF069A /* FilesFromCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesFromCell.swift; sourceTree = "<group>"; };
+		848F68DE25A63FC100EF069A /* FilesFromCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilesFromCell.xib; sourceTree = "<group>"; };
+		848F68EE25A64BE300EF069A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		848F68F825A663F400EF069A /* TaskFlowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFlowManager.swift; sourceTree = "<group>"; };
+		848F690725A6696700EF069A /* ArchivosLocalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosLocalesViewController.swift; sourceTree = "<group>"; };
+		848F690D25A6698C00EF069A /* ArchivosLocales.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ArchivosLocales.storyboard; sourceTree = "<group>"; };
+		848F691325A669BA00EF069A /* ArchivosLocalesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosLocalesRouter.swift; sourceTree = "<group>"; };
+		848F693D25A6886000EF069A /* FileItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileItemView.swift; sourceTree = "<group>"; };
+		848F694525A6887C00EF069A /* FileItemView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FileItemView.xib; sourceTree = "<group>"; };
+		848F694A25A68DDF00EF069A /* ArchivosLocalesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivosLocalesPresenter.swift; sourceTree = "<group>"; };
+		848F695125A6981300EF069A /* NivelCompresionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelCompresionViewController.swift; sourceTree = "<group>"; };
+		848F695A25A6983C00EF069A /* NivelCompresion.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NivelCompresion.storyboard; sourceTree = "<group>"; };
+		848F696025A6986000EF069A /* NivelCompresionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelCompresionRouter.swift; sourceTree = "<group>"; };
+		848F696A25A69A0400EF069A /* CompresionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompresionItemCell.swift; sourceTree = "<group>"; };
+		848F697025A69A2000EF069A /* CompresionItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompresionItemCell.xib; sourceTree = "<group>"; };
+		848F697625A69BA200EF069A /* NivelCompresionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NivelCompresionPresenter.swift; sourceTree = "<group>"; };
+		848F69A225A6A81E00EF069A /* StartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartInteractor.swift; sourceTree = "<group>"; };
+		848F69B425A6A8C600EF069A /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		848F69CB25A6AECD00EF069A /* UploadInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadInteractor.swift; sourceTree = "<group>"; };
+		848F69E025A6B44100EF069A /* ProcessInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8428BB3525A7BC2D0055B4C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428BB3625A7BC2D0055B4C3 /* PSPDFKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		848F67DE25A50F6E00EF069A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F693525A685BA00EF069A /* PSPDFKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +323,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8428BA5825A6CA1F0055B4C3 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				8428BA6525A6CB6E0055B4C3 /* DownloadWorker.swift */,
+				8428BA5925A6CA350055B4C3 /* DownloadInteractor.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		8428BA6E25A6E3FD0055B4C3 /* Completado */ = {
+			isa = PBXGroup;
+			children = (
+				8428BA6F25A6E4260055B4C3 /* CompletadoViewController.swift */,
+				8428BA7825A6E45C0055B4C3 /* Completado.storyboard */,
+				8428BA7E25A6E4DD0055B4C3 /* CompletadoRouter.swift */,
+				8428BA8425A6E5480055B4C3 /* CompletadoPresenter.swift */,
+			);
+			path = Completado;
+			sourceTree = "<group>";
+		};
+		8428BA9C25A72D7A0055B4C3 /* Archivos */ = {
+			isa = PBXGroup;
+			children = (
+				8428BAAC25A731330055B4C3 /* Complementos */,
+				8428BA9D25A72D8A0055B4C3 /* ArchivosViewController.swift */,
+				8428BAA625A72DB80055B4C3 /* ArchivosPresenter.swift */,
+			);
+			path = Archivos;
+			sourceTree = "<group>";
+		};
+		8428BAAC25A731330055B4C3 /* Complementos */ = {
+			isa = PBXGroup;
+			children = (
+				8428BAAD25A7314A0055B4C3 /* ArchivoCell.swift */,
+				8428BAB525A7315E0055B4C3 /* ArchivoCell.xib */,
+			);
+			path = Complementos;
+			sourceTree = "<group>";
+		};
+		8428BABA25A736A70055B4C3 /* VisorArchivos */ = {
+			isa = PBXGroup;
+			children = (
+				8428BABB25A736BD0055B4C3 /* VisorArchivosViewController.swift */,
+				8428BAC425A736EE0055B4C3 /* VisorArchivos.storyboard */,
+				8428BACA25A737240055B4C3 /* VisorArchivosRouter.swift */,
+			);
+			path = VisorArchivos;
+			sourceTree = "<group>";
+		};
+		8428BB4F25A7BC510055B4C3 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8428BB5425A7BD500055B4C3 /* AuthenticationWorkerDemo.swift */,
+				8428BB8925A7C56D0055B4C3 /* StartWorkerDemo.swift */,
+				8428BBA025A7C6DA0055B4C3 /* UploadWorkerDemo.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		848F67D825A50F6E00EF069A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +389,7 @@
 				848F67FD25A50F7100EF069A /* ILovePdfInterviewTests */,
 				848F680825A50F7100EF069A /* ILovePdfInterviewUITests */,
 				848F67E225A50F6E00EF069A /* Products */,
+				8428BB4A25A7BC2D0055B4C3 /* ILovePdfInterview copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +399,7 @@
 				848F67E125A50F6E00EF069A /* ILovePdfInterview.app */,
 				848F67FA25A50F7100EF069A /* ILovePdfInterviewTests.xctest */,
 				848F680525A50F7100EF069A /* ILovePdfInterviewUITests.xctest */,
+				8428BB4925A7BC2D0055B4C3 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,10 +407,16 @@
 		848F67E325A50F6E00EF069A /* ILovePdfInterview */ = {
 			isa = PBXGroup;
 			children = (
+				8428BABA25A736A70055B4C3 /* VisorArchivos */,
+				8428BA9C25A72D7A0055B4C3 /* Archivos */,
+				848F68F725A663CB00EF069A /* TaskFlow */,
+				848F688C25A6284600EF069A /* Herramientas */,
+				848F686E25A6177A00EF069A /* Helpers */,
+				848F682325A51EA400EF069A /* API */,
+				848F681A25A51D2900EF069A /* Main */,
 				848F67E425A50F6E00EF069A /* AppDelegate.swift */,
 				848F67E625A50F6E00EF069A /* SceneDelegate.swift */,
 				848F67E825A50F6E00EF069A /* ViewController.swift */,
-				848F67EA25A50F6E00EF069A /* Main.storyboard */,
 				848F67F025A50F7100EF069A /* Assets.xcassets */,
 				848F67F225A50F7100EF069A /* LaunchScreen.storyboard */,
 				848F67F525A50F7100EF069A /* Info.plist */,
@@ -116,7 +428,12 @@
 		848F67FD25A50F7100EF069A /* ILovePdfInterviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				848F67FE25A50F7100EF069A /* ILovePdfInterviewTests.swift */,
+				8428BBA725A7C7630055B4C3 /* UploadWorkerTest.swift */,
+				8428BB8325A7C5530055B4C3 /* StartWorkerTest.swift */,
+				8428BB5E25A7C1D10055B4C3 /* AuthenticationWorkerTest.swift */,
+				8428BAFD25A7B89D0055B4C3 /* NivelCompresionPresenterTest.swift */,
+				8428BAF125A7B6B60055B4C3 /* CompletadoPresenterTest.swift */,
+				8428BAD325A7A3E50055B4C3 /* HerramientasPresenterTest.swift */,
 				848F680025A50F7100EF069A /* Info.plist */,
 			);
 			path = ILovePdfInterviewTests;
@@ -131,9 +448,205 @@
 			path = ILovePdfInterviewUITests;
 			sourceTree = "<group>";
 		};
+		848F681A25A51D2900EF069A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				848F681B25A51D3E00EF069A /* MainViewController.swift */,
+				848F67EA25A50F6E00EF069A /* Main.storyboard */,
+				8428BA8D25A6F1B70055B4C3 /* MainRouter.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		848F682325A51EA400EF069A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8428BB4F25A7BC510055B4C3 /* Demo */,
+				848F69C325A6AC9200EF069A /* Base */,
+				848F687E25A61CF400EF069A /* Authentication */,
+				848F69A125A6A7F300EF069A /* Start */,
+				848F69CA25A6AEB400EF069A /* Upload */,
+				848F69DF25A6B43200EF069A /* Process */,
+				8428BA5825A6CA1F0055B4C3 /* Download */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		848F686E25A6177A00EF069A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				848F693C25A6884900EF069A /* FileItem */,
+				848F68AC25A633E700EF069A /* CustomColumnFlow.swift */,
+				848F686F25A6179700EF069A /* Localizable.strings */,
+				848F687825A617F100EF069A /* Extensions.swift */,
+				848F68B225A63AD000EF069A /* Colors.swift */,
+				848F68EE25A64BE300EF069A /* BaseViewController.swift */,
+				8428BA9625A6F5A50055B4C3 /* LocalFileManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		848F687E25A61CF400EF069A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				848F682425A51EF500EF069A /* AuthenticationWorker.swift */,
+				848F687F25A61D0A00EF069A /* AuthenticationInteractor.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		848F688C25A6284600EF069A /* Herramientas */ = {
+			isa = PBXGroup;
+			children = (
+				848F689C25A62BB400EF069A /* Componentes */,
+				848F688D25A6285900EF069A /* HerramientasViewController.swift */,
+				848F689625A628E500EF069A /* HerramientasPresenter.swift */,
+			);
+			path = Herramientas;
+			sourceTree = "<group>";
+		};
+		848F689C25A62BB400EF069A /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				848F689D25A62BC300EF069A /* HerramientaCell.swift */,
+				848F68A625A62BD100EF069A /* HerramientaCell.xib */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		848F68B825A63CDF00EF069A /* SeleccionarArchivos */ = {
+			isa = PBXGroup;
+			children = (
+				848F68D425A63FA400EF069A /* Componentes */,
+				848F68B925A63CF200EF069A /* SeleccionarArchivosViewController.swift */,
+				848F68C225A63D2200EF069A /* SeleccionarArchivosRouter.swift */,
+				848F68C825A63D4100EF069A /* SeleccionarArchivos.storyboard */,
+				848F68CE25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift */,
+			);
+			path = SeleccionarArchivos;
+			sourceTree = "<group>";
+		};
+		848F68D425A63FA400EF069A /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				848F68D525A63FB500EF069A /* FilesFromCell.swift */,
+				848F68DE25A63FC100EF069A /* FilesFromCell.xib */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		848F68EA25A644A500EF069A /* ArchivosLocales */ = {
+			isa = PBXGroup;
+			children = (
+				848F690725A6696700EF069A /* ArchivosLocalesViewController.swift */,
+				848F690D25A6698C00EF069A /* ArchivosLocales.storyboard */,
+				848F691325A669BA00EF069A /* ArchivosLocalesRouter.swift */,
+				848F694A25A68DDF00EF069A /* ArchivosLocalesPresenter.swift */,
+			);
+			path = ArchivosLocales;
+			sourceTree = "<group>";
+		};
+		848F68F725A663CB00EF069A /* TaskFlow */ = {
+			isa = PBXGroup;
+			children = (
+				848F68F825A663F400EF069A /* TaskFlowManager.swift */,
+				848F68B825A63CDF00EF069A /* SeleccionarArchivos */,
+				848F68EA25A644A500EF069A /* ArchivosLocales */,
+				848F695025A6980000EF069A /* NivelCompresion */,
+				8428BA6E25A6E3FD0055B4C3 /* Completado */,
+			);
+			path = TaskFlow;
+			sourceTree = "<group>";
+		};
+		848F693C25A6884900EF069A /* FileItem */ = {
+			isa = PBXGroup;
+			children = (
+				848F693D25A6886000EF069A /* FileItemView.swift */,
+				848F694525A6887C00EF069A /* FileItemView.xib */,
+			);
+			path = FileItem;
+			sourceTree = "<group>";
+		};
+		848F695025A6980000EF069A /* NivelCompresion */ = {
+			isa = PBXGroup;
+			children = (
+				848F696625A698B600EF069A /* Complementos */,
+				848F695125A6981300EF069A /* NivelCompresionViewController.swift */,
+				848F695A25A6983C00EF069A /* NivelCompresion.storyboard */,
+				848F696025A6986000EF069A /* NivelCompresionRouter.swift */,
+				848F697625A69BA200EF069A /* NivelCompresionPresenter.swift */,
+			);
+			path = NivelCompresion;
+			sourceTree = "<group>";
+		};
+		848F696625A698B600EF069A /* Complementos */ = {
+			isa = PBXGroup;
+			children = (
+				848F696A25A69A0400EF069A /* CompresionItemCell.swift */,
+				848F697025A69A2000EF069A /* CompresionItemCell.xib */,
+			);
+			path = Complementos;
+			sourceTree = "<group>";
+		};
+		848F69A125A6A7F300EF069A /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				848F682D25A51F0400EF069A /* StartWorker.swift */,
+				848F69A225A6A81E00EF069A /* StartInteractor.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		848F69C325A6AC9200EF069A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				848F684525A51F3B00EF069A /* BaseWorker.swift */,
+				848F69B425A6A8C600EF069A /* BaseInteractor.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		848F69CA25A6AEB400EF069A /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				848F683325A51F1F00EF069A /* UploadWorker.swift */,
+				848F69CB25A6AECD00EF069A /* UploadInteractor.swift */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
+		848F69DF25A6B43200EF069A /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				848F683925A51F2800EF069A /* ProcessWorker.swift */,
+				848F69E025A6B44100EF069A /* ProcessInteractor.swift */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8428BB0225A7BC2D0055B4C3 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8428BB4625A7BC2D0055B4C3 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				8428BB0525A7BC2D0055B4C3 /* Sources */,
+				8428BB3525A7BC2D0055B4C3 /* Frameworks */,
+				8428BB3725A7BC2D0055B4C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			packageProductDependencies = (
+				8428BB0325A7BC2D0055B4C3 /* PSPDFKit */,
+			);
+			productName = ILovePdfInterview;
+			productReference = 8428BB4925A7BC2D0055B4C3 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		848F67E025A50F6E00EF069A /* ILovePdfInterview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 848F680E25A50F7100EF069A /* Build configuration list for PBXNativeTarget "ILovePdfInterview" */;
@@ -147,6 +660,9 @@
 			dependencies = (
 			);
 			name = ILovePdfInterview;
+			packageProductDependencies = (
+				848F693425A685BA00EF069A /* PSPDFKit */,
+			);
 			productName = ILovePdfInterview;
 			productReference = 848F67E125A50F6E00EF069A /* ILovePdfInterview.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +734,9 @@
 				Base,
 			);
 			mainGroup = 848F67D825A50F6E00EF069A;
+			packageReferences = (
+				848F693325A685BA00EF069A /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */,
+			);
 			productRefGroup = 848F67E225A50F6E00EF069A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -225,18 +744,51 @@
 				848F67E025A50F6E00EF069A /* ILovePdfInterview */,
 				848F67F925A50F7100EF069A /* ILovePdfInterviewTests */,
 				848F680425A50F7100EF069A /* ILovePdfInterviewUITests */,
+				8428BB0225A7BC2D0055B4C3 /* Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8428BB3725A7BC2D0055B4C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428BB3825A7BC2D0055B4C3 /* NivelCompresion.storyboard in Resources */,
+				8428BB3925A7BC2D0055B4C3 /* HerramientaCell.xib in Resources */,
+				8428BB3A25A7BC2D0055B4C3 /* LaunchScreen.storyboard in Resources */,
+				8428BB3B25A7BC2D0055B4C3 /* Localizable.strings in Resources */,
+				8428BB3C25A7BC2D0055B4C3 /* ArchivosLocales.storyboard in Resources */,
+				8428BB3D25A7BC2D0055B4C3 /* VisorArchivos.storyboard in Resources */,
+				8428BB3E25A7BC2D0055B4C3 /* Assets.xcassets in Resources */,
+				8428BB3F25A7BC2D0055B4C3 /* SeleccionarArchivos.storyboard in Resources */,
+				8428BB4025A7BC2D0055B4C3 /* Main.storyboard in Resources */,
+				8428BB4125A7BC2D0055B4C3 /* Completado.storyboard in Resources */,
+				8428BB4225A7BC2D0055B4C3 /* FileItemView.xib in Resources */,
+				8428BB4325A7BC2D0055B4C3 /* FilesFromCell.xib in Resources */,
+				8428BB4425A7BC2D0055B4C3 /* CompresionItemCell.xib in Resources */,
+				8428BB4525A7BC2D0055B4C3 /* ArchivoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		848F67DF25A50F6E00EF069A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F695B25A6983C00EF069A /* NivelCompresion.storyboard in Resources */,
+				848F68A725A62BD100EF069A /* HerramientaCell.xib in Resources */,
 				848F67F425A50F7100EF069A /* LaunchScreen.storyboard in Resources */,
+				848F687025A6179700EF069A /* Localizable.strings in Resources */,
+				848F690E25A6698C00EF069A /* ArchivosLocales.storyboard in Resources */,
+				8428BAC525A736EE0055B4C3 /* VisorArchivos.storyboard in Resources */,
 				848F67F125A50F7100EF069A /* Assets.xcassets in Resources */,
+				848F68C925A63D4100EF069A /* SeleccionarArchivos.storyboard in Resources */,
 				848F67EC25A50F6E00EF069A /* Main.storyboard in Resources */,
+				8428BA7925A6E45C0055B4C3 /* Completado.storyboard in Resources */,
+				848F694625A6887C00EF069A /* FileItemView.xib in Resources */,
+				848F68DF25A63FC100EF069A /* FilesFromCell.xib in Resources */,
+				848F697125A69A2000EF069A /* CompresionItemCell.xib in Resources */,
+				8428BAB625A7315E0055B4C3 /* ArchivoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +796,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F695C25A6983C00EF069A /* NivelCompresion.storyboard in Resources */,
+				8428BAC625A736EE0055B4C3 /* VisorArchivos.storyboard in Resources */,
+				848F697225A69A2000EF069A /* CompresionItemCell.xib in Resources */,
+				848F68A825A62BD100EF069A /* HerramientaCell.xib in Resources */,
+				8428BA7A25A6E45C0055B4C3 /* Completado.storyboard in Resources */,
+				848F68E025A63FC100EF069A /* FilesFromCell.xib in Resources */,
+				848F68CA25A63D4100EF069A /* SeleccionarArchivos.storyboard in Resources */,
+				848F687125A6179700EF069A /* Localizable.strings in Resources */,
+				848F690F25A6698C00EF069A /* ArchivosLocales.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +818,110 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8428BB0525A7BC2D0055B4C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8428BB0625A7BC2D0055B4C3 /* SeleccionarArchivosPresenter.swift in Sources */,
+				8428BB0725A7BC2D0055B4C3 /* HerramientaCell.swift in Sources */,
+				8428BB0825A7BC2D0055B4C3 /* ArchivosLocalesViewController.swift in Sources */,
+				8428BB0925A7BC2D0055B4C3 /* VisorArchivosRouter.swift in Sources */,
+				8428BB0A25A7BC2D0055B4C3 /* VisorArchivosViewController.swift in Sources */,
+				8428BB0B25A7BC2D0055B4C3 /* Colors.swift in Sources */,
+				8428BB0C25A7BC2D0055B4C3 /* BaseViewController.swift in Sources */,
+				8428BBCD25A7CD2C0055B4C3 /* ProcessWorker.swift in Sources */,
+				8428BBA225A7C6DA0055B4C3 /* UploadWorkerDemo.swift in Sources */,
+				8428BB0D25A7BC2D0055B4C3 /* CustomColumnFlow.swift in Sources */,
+				8428BB5525A7BD500055B4C3 /* AuthenticationWorkerDemo.swift in Sources */,
+				8428BB0E25A7BC2D0055B4C3 /* ILovePdfInterview.xcdatamodeld in Sources */,
+				8428BB0F25A7BC2D0055B4C3 /* AuthenticationInteractor.swift in Sources */,
+				8428BB1025A7BC2D0055B4C3 /* DownloadWorker.swift in Sources */,
+				8428BB1125A7BC2D0055B4C3 /* NivelCompresionRouter.swift in Sources */,
+				8428BB8B25A7C56D0055B4C3 /* StartWorkerDemo.swift in Sources */,
+				8428BB1225A7BC2D0055B4C3 /* HerramientasViewController.swift in Sources */,
+				8428BB1325A7BC2D0055B4C3 /* SeleccionarArchivosRouter.swift in Sources */,
+				8428BB1425A7BC2D0055B4C3 /* ViewController.swift in Sources */,
+				8428BB1525A7BC2D0055B4C3 /* StartInteractor.swift in Sources */,
+				8428BB1625A7BC2D0055B4C3 /* MainRouter.swift in Sources */,
+				8428BB1725A7BC2D0055B4C3 /* HerramientasPresenter.swift in Sources */,
+				8428BB1825A7BC2D0055B4C3 /* NivelCompresionPresenter.swift in Sources */,
+				8428BB1925A7BC2D0055B4C3 /* ProcessInteractor.swift in Sources */,
+				8428BB1C25A7BC2D0055B4C3 /* ArchivosViewController.swift in Sources */,
+				8428BB1D25A7BC2D0055B4C3 /* FilesFromCell.swift in Sources */,
+				8428BB1E25A7BC2D0055B4C3 /* SeleccionarArchivosViewController.swift in Sources */,
+				8428BB2025A7BC2D0055B4C3 /* AppDelegate.swift in Sources */,
+				8428BB2125A7BC2D0055B4C3 /* ArchivosLocalesRouter.swift in Sources */,
+				8428BB2225A7BC2D0055B4C3 /* CompletadoViewController.swift in Sources */,
+				8428BB2325A7BC2D0055B4C3 /* BaseInteractor.swift in Sources */,
+				8428BB2425A7BC2D0055B4C3 /* Extensions.swift in Sources */,
+				8428BB2525A7BC2D0055B4C3 /* FileItemView.swift in Sources */,
+				8428BB2625A7BC2D0055B4C3 /* CompresionItemCell.swift in Sources */,
+				8428BB2725A7BC2D0055B4C3 /* DownloadInteractor.swift in Sources */,
+				8428BB2825A7BC2D0055B4C3 /* BaseWorker.swift in Sources */,
+				8428BB2925A7BC2D0055B4C3 /* NivelCompresionViewController.swift in Sources */,
+				8428BB2A25A7BC2D0055B4C3 /* CompletadoRouter.swift in Sources */,
+				8428BB2B25A7BC2D0055B4C3 /* ArchivosLocalesPresenter.swift in Sources */,
+				8428BB2C25A7BC2D0055B4C3 /* ArchivoCell.swift in Sources */,
+				8428BB2D25A7BC2D0055B4C3 /* CompletadoPresenter.swift in Sources */,
+				8428BB3025A7BC2D0055B4C3 /* SceneDelegate.swift in Sources */,
+				8428BB3125A7BC2D0055B4C3 /* TaskFlowManager.swift in Sources */,
+				8428BB3225A7BC2D0055B4C3 /* ArchivosPresenter.swift in Sources */,
+				8428BB3325A7BC2D0055B4C3 /* MainViewController.swift in Sources */,
+				8428BB3425A7BC2D0055B4C3 /* LocalFileManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		848F67DD25A50F6E00EF069A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848F68CF25A63DBA00EF069A /* SeleccionarArchivosPresenter.swift in Sources */,
+				848F689E25A62BC300EF069A /* HerramientaCell.swift in Sources */,
+				848F690825A6696700EF069A /* ArchivosLocalesViewController.swift in Sources */,
+				8428BACB25A737240055B4C3 /* VisorArchivosRouter.swift in Sources */,
+				8428BABC25A736BD0055B4C3 /* VisorArchivosViewController.swift in Sources */,
+				848F68B325A63AD000EF069A /* Colors.swift in Sources */,
+				848F68EF25A64BE300EF069A /* BaseViewController.swift in Sources */,
+				848F68AD25A633E700EF069A /* CustomColumnFlow.swift in Sources */,
 				848F67EF25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld in Sources */,
+				848F688025A61D0A00EF069A /* AuthenticationInteractor.swift in Sources */,
+				8428BA6625A6CB6E0055B4C3 /* DownloadWorker.swift in Sources */,
+				848F696125A6986000EF069A /* NivelCompresionRouter.swift in Sources */,
+				848F688E25A6285900EF069A /* HerramientasViewController.swift in Sources */,
+				848F68C325A63D2200EF069A /* SeleccionarArchivosRouter.swift in Sources */,
 				848F67E925A50F6E00EF069A /* ViewController.swift in Sources */,
+				848F69A325A6A81E00EF069A /* StartInteractor.swift in Sources */,
+				8428BA8E25A6F1B70055B4C3 /* MainRouter.swift in Sources */,
+				848F689725A628E500EF069A /* HerramientasPresenter.swift in Sources */,
+				848F697725A69BA200EF069A /* NivelCompresionPresenter.swift in Sources */,
+				848F69E125A6B44100EF069A /* ProcessInteractor.swift in Sources */,
+				848F682E25A51F0400EF069A /* StartWorker.swift in Sources */,
+				848F683425A51F1F00EF069A /* UploadWorker.swift in Sources */,
+				8428BA9E25A72D8A0055B4C3 /* ArchivosViewController.swift in Sources */,
+				848F68D625A63FB500EF069A /* FilesFromCell.swift in Sources */,
+				848F68BA25A63CF200EF069A /* SeleccionarArchivosViewController.swift in Sources */,
+				848F682525A51EF500EF069A /* AuthenticationWorker.swift in Sources */,
 				848F67E525A50F6E00EF069A /* AppDelegate.swift in Sources */,
+				848F691425A669BA00EF069A /* ArchivosLocalesRouter.swift in Sources */,
+				8428BA7025A6E4260055B4C3 /* CompletadoViewController.swift in Sources */,
+				848F69B525A6A8C600EF069A /* BaseInteractor.swift in Sources */,
+				848F687925A617F100EF069A /* Extensions.swift in Sources */,
+				848F693E25A6886000EF069A /* FileItemView.swift in Sources */,
+				848F696B25A69A0400EF069A /* CompresionItemCell.swift in Sources */,
+				8428BA5A25A6CA350055B4C3 /* DownloadInteractor.swift in Sources */,
+				848F684625A51F3B00EF069A /* BaseWorker.swift in Sources */,
+				848F695225A6981300EF069A /* NivelCompresionViewController.swift in Sources */,
+				8428BA7F25A6E4DD0055B4C3 /* CompletadoRouter.swift in Sources */,
+				848F694B25A68DDF00EF069A /* ArchivosLocalesPresenter.swift in Sources */,
+				8428BAAE25A7314A0055B4C3 /* ArchivoCell.swift in Sources */,
+				8428BA8525A6E5480055B4C3 /* CompletadoPresenter.swift in Sources */,
+				848F683A25A51F2800EF069A /* ProcessWorker.swift in Sources */,
+				848F69CC25A6AECD00EF069A /* UploadInteractor.swift in Sources */,
 				848F67E725A50F6E00EF069A /* SceneDelegate.swift in Sources */,
+				848F68F925A663F400EF069A /* TaskFlowManager.swift in Sources */,
+				8428BAA725A72DB80055B4C3 /* ArchivosPresenter.swift in Sources */,
+				848F681C25A51D3E00EF069A /* MainViewController.swift in Sources */,
+				8428BA9725A6F5A50055B4C3 /* LocalFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +929,54 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848F67FF25A50F7100EF069A /* ILovePdfInterviewTests.swift in Sources */,
+				848F689F25A62BC300EF069A /* HerramientaCell.swift in Sources */,
+				8428BBB525A7C8DD0055B4C3 /* UploadInteractor.swift in Sources */,
+				848F68C425A63D2200EF069A /* SeleccionarArchivosRouter.swift in Sources */,
+				848F68D725A63FB500EF069A /* FilesFromCell.swift in Sources */,
+				848F69B625A6A8C600EF069A /* BaseInteractor.swift in Sources */,
+				8428BA7125A6E4260055B4C3 /* CompletadoViewController.swift in Sources */,
+				848F690925A6696700EF069A /* ArchivosLocalesViewController.swift in Sources */,
+				8428BBA125A7C6DA0055B4C3 /* UploadWorkerDemo.swift in Sources */,
+				848F691525A669BA00EF069A /* ArchivosLocalesRouter.swift in Sources */,
+				8428BAF325A7B6B60055B4C3 /* CompletadoPresenterTest.swift in Sources */,
+				848F68F025A64BE300EF069A /* BaseViewController.swift in Sources */,
+				8428BA8025A6E4DD0055B4C3 /* CompletadoRouter.swift in Sources */,
+				848F689825A628E500EF069A /* HerramientasPresenter.swift in Sources */,
+				8428BA9825A6F5A50055B4C3 /* LocalFileManager.swift in Sources */,
+				8428BB8A25A7C56D0055B4C3 /* StartWorkerDemo.swift in Sources */,
+				8428BB8425A7C5530055B4C3 /* StartWorkerTest.swift in Sources */,
+				8428BAFE25A7B89D0055B4C3 /* NivelCompresionPresenterTest.swift in Sources */,
+				8428BAE625A7A7F90055B4C3 /* ArchivoCell.swift in Sources */,
+				848F69A425A6A81E00EF069A /* StartInteractor.swift in Sources */,
+				848F696225A6986000EF069A /* NivelCompresionRouter.swift in Sources */,
+				848F68B425A63AD000EF069A /* Colors.swift in Sources */,
+				848F68D025A63DBA00EF069A /* SeleccionarArchivosPresenter.swift in Sources */,
+				8428BA8F25A6F1B70055B4C3 /* MainRouter.swift in Sources */,
+				8428BA8625A6E5480055B4C3 /* CompletadoPresenter.swift in Sources */,
+				8428BABD25A736BD0055B4C3 /* VisorArchivosViewController.swift in Sources */,
+				8428BA9F25A72D8A0055B4C3 /* ArchivosViewController.swift in Sources */,
+				8428BAD525A7A3E50055B4C3 /* HerramientasPresenterTest.swift in Sources */,
+				848F69E225A6B44100EF069A /* ProcessInteractor.swift in Sources */,
+				8428BA6725A6CB6E0055B4C3 /* DownloadWorker.swift in Sources */,
+				8428BB7A25A7C3BF0055B4C3 /* AuthenticationWorkerDemo.swift in Sources */,
+				848F697825A69BA200EF069A /* NivelCompresionPresenter.swift in Sources */,
+				8428BBA825A7C7630055B4C3 /* UploadWorkerTest.swift in Sources */,
+				848F68AE25A633E700EF069A /* CustomColumnFlow.swift in Sources */,
+				848F696C25A69A0400EF069A /* CompresionItemCell.swift in Sources */,
+				8428BAE225A7A7E70055B4C3 /* FileItemView.swift in Sources */,
+				848F68FA25A663F400EF069A /* TaskFlowManager.swift in Sources */,
+				848F684725A51F3B00EF069A /* BaseWorker.swift in Sources */,
+				848F694C25A68DDF00EF069A /* ArchivosLocalesPresenter.swift in Sources */,
+				848F687A25A617F100EF069A /* Extensions.swift in Sources */,
+				8428BBCE25A7CD2D0055B4C3 /* ProcessWorker.swift in Sources */,
+				848F68BB25A63CF200EF069A /* SeleccionarArchivosViewController.swift in Sources */,
+				8428BA5B25A6CA350055B4C3 /* DownloadInteractor.swift in Sources */,
+				848F695325A6981300EF069A /* NivelCompresionViewController.swift in Sources */,
+				848F688F25A6285900EF069A /* HerramientasViewController.swift in Sources */,
+				848F688125A61D0A00EF069A /* AuthenticationInteractor.swift in Sources */,
+				8428BB7125A7C3660055B4C3 /* AuthenticationWorkerTest.swift in Sources */,
+				8428BAA825A72DB80055B4C3 /* ArchivosPresenter.swift in Sources */,
+				8428BACC25A737240055B4C3 /* VisorArchivosRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +1023,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8428BB4725A7BC2D0055B4C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = "ILovePdfInterview copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8428BB4825A7BC2D0055B4C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D5PK29TDFS;
+				INFOPLIST_FILE = "ILovePdfInterview copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebounds.ilovepdfinterview.ILovePdfInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		848F680C25A50F7100EF069A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -443,6 +1187,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5PK29TDFS;
 				INFOPLIST_FILE = ILovePdfInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +1207,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5PK29TDFS;
 				INFOPLIST_FILE = ILovePdfInterview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -481,7 +1227,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5PK29TDFS;
 				INFOPLIST_FILE = ILovePdfInterviewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +1249,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D5PK29TDFS;
 				INFOPLIST_FILE = ILovePdfInterviewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -560,6 +1306,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8428BB4625A7BC2D0055B4C3 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8428BB4725A7BC2D0055B4C3 /* Debug */,
+				8428BB4825A7BC2D0055B4C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		848F67DC25A50F6E00EF069A /* Build configuration list for PBXProject "ILovePdfInterview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -597,6 +1352,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8428BB0425A7BC2D0055B4C3 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PSPDFKit/PSPDFKit-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.1;
+			};
+		};
+		848F693325A685BA00EF069A /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PSPDFKit/PSPDFKit-SP";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8428BB0325A7BC2D0055B4C3 /* PSPDFKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8428BB0425A7BC2D0055B4C3 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */;
+			productName = PSPDFKit;
+		};
+		848F693425A685BA00EF069A /* PSPDFKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 848F693325A685BA00EF069A /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */;
+			productName = PSPDFKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		848F67ED25A50F6E00EF069A /* ILovePdfInterview.xcdatamodeld */ = {

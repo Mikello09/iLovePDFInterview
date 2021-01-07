@@ -1,0 +1,48 @@
+/* 
+  Localizable.strings
+  ILovePdfInterview
+
+  Created by usuario on 6/1/21.
+  
+*/
+
+//ERRORS
+"generic_error" = "Error genérico. Vuelva a intentarlo.";
+"steps_error" = "Error en completar todos los pasos";
+
+
+//HERRAMIENTAS
+"herramientas" = "Herramientas";
+"comprimir" = "Comprimir\nPDF";
+"dividir" = "Dividir\nPDF";
+
+//ARCHIVOS
+"archivos" = "Archivos";
+"seleccionarArchivos" = "Seleccionar archivos";
+"local" = "Local";
+"googleDrive" = "Google Drive";
+"dropbox" = "Dropbox";
+"iphone" = "iPhone";
+"ipad" = "iPad";
+"continuar" = "Continuar";
+"directoryError" = "No se puede crear URL en el directorio específico";
+"directoryNotExist" = "El directorio no existe";
+"archivosVacios" = "No hay archivos cargados";
+
+//COMPRESION
+"nivelCompresion" = "Opciones de compresión";
+"extremaTitulo" = "Compresión Extrema";
+"recomendadTitulo" = "Compresión Recomendada";
+"bajaTitulo" = "Compresión Baja";
+"extremaSubtitulo" = "Menos calidad, alta compresión";
+"recomendadaSubtitulo" = "Buena calidad, buena compresión";
+"bajaSubtitulo" = "Alta calidad, menos compresión";
+
+//COMPLETADO
+"completado" = "Completado";
+"completadoOK" = "¡Completado!";
+"pdfcomprimido" = "¡El PDF se ha comprimido!";
+"menosTamano" = "menos tamaño";
+"irAlArchivo" = "Ir al archivo";
+"noCompletado" = "Ha ocurrido un error";
+

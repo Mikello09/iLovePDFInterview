@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad12_9" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CompresionItemCell" rowHeight="56" id="pYc-dA-dDV" customClass="CompresionItemCell" customModule="ILovePdfInterview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="457" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pYc-dA-dDV" id="Vg4-W4-lzB">
+                <rect key="frame" x="0.0" y="0.0" width="457" height="56"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-9r-pF8">
+                        <rect key="frame" x="8" y="-1" width="389" height="58"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BLj-0G-IeJ">
+                                <rect key="frame" x="0.0" y="0.0" width="389" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Negro"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyd-q1-DD2">
+                                <rect key="frame" x="0.0" y="29" width="389" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" name="Gris"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YLQ-7x-xGG">
+                        <rect key="frame" x="405" y="12" width="36" height="32.5"/>
+                        <color key="tintColor" name="Rojo"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="6KR-G5-kY0">
+                                <variation key="heightClass=regular-widthClass=regular" constant="36"/>
+                            </constraint>
+                            <constraint firstAttribute="width" constant="24" id="oJu-z9-N3A">
+                                <variation key="heightClass=regular-widthClass=regular" constant="36"/>
+                            </constraint>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="lKg-9r-pF8" firstAttribute="leading" secondItem="Vg4-W4-lzB" secondAttribute="leading" constant="8" id="7H3-MG-1lW"/>
+                    <constraint firstItem="YLQ-7x-xGG" firstAttribute="leading" secondItem="lKg-9r-pF8" secondAttribute="trailing" constant="8" id="8pm-nO-0m1"/>
+                    <constraint firstAttribute="trailing" secondItem="YLQ-7x-xGG" secondAttribute="trailing" constant="16" id="Deh-CP-8Zs"/>
+                    <constraint firstItem="lKg-9r-pF8" firstAttribute="centerY" secondItem="Vg4-W4-lzB" secondAttribute="centerY" id="lP1-49-jTd"/>
+                    <constraint firstItem="YLQ-7x-xGG" firstAttribute="centerY" secondItem="Vg4-W4-lzB" secondAttribute="centerY" id="vF8-ci-f6m"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="container" destination="Vg4-W4-lzB" id="Ohn-O5-Cw5"/>
+                <outlet property="seleccionadoImagen" destination="YLQ-7x-xGG" id="Mqv-6W-xWX"/>
+                <outlet property="subtitulo" destination="Dyd-q1-DD2" id="hcb-xf-QHp"/>
+                <outlet property="titulo" destination="BLj-0G-IeJ" id="FKK-Ay-oLo"/>
+            </connections>
+            <point key="canvasLocation" x="177.536231884058" y="70.982142857142847"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkmark" catalog="system" width="128" height="114"/>
+        <namedColor name="Gris">
+            <color red="0.66299998760223389" green="0.6589999794960022" blue="0.66600000858306885" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Negro">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Rojo">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

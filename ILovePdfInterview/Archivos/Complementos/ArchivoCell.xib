@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ArchivoCell" rowHeight="138" id="sbO-E6-wle" customClass="ArchivoCell" customModule="ILovePdfInterview" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="459" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="sbO-E6-wle" id="StF-05-bNz">
+                <rect key="frame" x="0.0" y="0.0" width="459" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="l63-Zu-nbz" customClass="FileItemView" customModule="ILovePdfInterview" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="443" height="122"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="l63-Zu-nbz" firstAttribute="top" secondItem="StF-05-bNz" secondAttribute="top" constant="8" id="J0b-R4-YMc"/>
+                    <constraint firstItem="l63-Zu-nbz" firstAttribute="leading" secondItem="StF-05-bNz" secondAttribute="leading" constant="8" id="LTR-2U-pDG"/>
+                    <constraint firstAttribute="trailing" secondItem="l63-Zu-nbz" secondAttribute="trailing" constant="8" id="k08-Dg-2yM"/>
+                    <constraint firstAttribute="bottom" secondItem="l63-Zu-nbz" secondAttribute="bottom" constant="8" id="nYZ-8Q-dcv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="fileItem" destination="l63-Zu-nbz" id="XfK-Hj-UGu"/>
+            </connections>
+            <point key="canvasLocation" x="-54" y="-20"/>
+        </tableViewCell>
+    </objects>
+</document>

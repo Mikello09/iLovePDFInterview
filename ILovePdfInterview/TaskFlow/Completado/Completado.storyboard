@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Completado View Controller-->
+        <scene sceneID="Ljd-dt-Pg7">
+            <objects>
+                <viewController storyboardIdentifier="completadoStoryboard" id="FaW-nn-XZp" customClass="CompletadoViewController" customModule="ILovePdfInterview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qj0-Jk-AEw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ljt-oX-Fdc">
+                                <rect key="frame" x="16" y="323" width="382" height="250"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMj-Fo-vCc">
+                                        <rect key="frame" x="160.5" y="16" width="61.5" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <color key="textColor" name="Negro"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SCU-La-DIY">
+                                        <rect key="frame" x="167" y="63.5" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="Yau-ZL-pVJ"/>
+                                            <constraint firstAttribute="height" constant="48" id="oEY-fP-EUX"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkc-r9-k2u">
+                                        <rect key="frame" x="169" y="127.5" width="44" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" name="Negro"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ar4-T1-BVk">
+                                        <rect key="frame" x="91" y="165" width="200" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="acd-Ko-zUk"/>
+                                            <constraint firstAttribute="height" constant="48" id="whC-5w-wJJ"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <connections>
+                                            <action selector="onClickIrAArchivo:" destination="FaW-nn-XZp" eventType="touchUpInside" id="Nnf-FR-9Xz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="aMj-Fo-vCc" firstAttribute="top" secondItem="ljt-oX-Fdc" secondAttribute="top" constant="16" id="1cq-oB-SlX"/>
+                                    <constraint firstItem="ar4-T1-BVk" firstAttribute="top" secondItem="Kkc-r9-k2u" secondAttribute="bottom" constant="16" id="37z-D4-SGh"/>
+                                    <constraint firstAttribute="height" constant="250" id="RLh-Ac-cWk"/>
+                                    <constraint firstItem="SCU-La-DIY" firstAttribute="centerX" secondItem="ljt-oX-Fdc" secondAttribute="centerX" id="ZEB-We-U92"/>
+                                    <constraint firstItem="ar4-T1-BVk" firstAttribute="centerX" secondItem="ljt-oX-Fdc" secondAttribute="centerX" id="anI-tG-5O8"/>
+                                    <constraint firstItem="Kkc-r9-k2u" firstAttribute="top" secondItem="SCU-La-DIY" secondAttribute="bottom" constant="16" id="nxd-tO-0eU"/>
+                                    <constraint firstItem="Kkc-r9-k2u" firstAttribute="centerX" secondItem="ljt-oX-Fdc" secondAttribute="centerX" id="q4L-vg-Z34"/>
+                                    <constraint firstItem="SCU-La-DIY" firstAttribute="top" secondItem="aMj-Fo-vCc" secondAttribute="bottom" constant="16" id="w6H-MM-Oe2"/>
+                                    <constraint firstItem="aMj-Fo-vCc" firstAttribute="centerX" secondItem="ljt-oX-Fdc" secondAttribute="centerX" id="zuH-tR-a5V"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wmS-Ap-KvT"/>
+                        <color key="backgroundColor" name="GrisFondo"/>
+                        <constraints>
+                            <constraint firstItem="ljt-oX-Fdc" firstAttribute="leading" secondItem="wmS-Ap-KvT" secondAttribute="leading" constant="16" id="IfO-jk-YtA"/>
+                            <constraint firstItem="ljt-oX-Fdc" firstAttribute="centerY" secondItem="qj0-Jk-AEw" secondAttribute="centerY" id="LPw-Q5-w7L"/>
+                            <constraint firstItem="ljt-oX-Fdc" firstAttribute="centerX" secondItem="qj0-Jk-AEw" secondAttribute="centerX" id="aD8-99-w6r"/>
+                            <constraint firstItem="wmS-Ap-KvT" firstAttribute="trailing" secondItem="ljt-oX-Fdc" secondAttribute="trailing" constant="16" id="b2w-HG-kJG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="completadoView" destination="ljt-oX-Fdc" id="vDA-0u-kUp"/>
+                        <outlet property="detalles" destination="Kkc-r9-k2u" id="Rif-V6-fcX"/>
+                        <outlet property="imagen" destination="SCU-La-DIY" id="zIm-eN-SCX"/>
+                        <outlet property="irArchivoBoton" destination="ar4-T1-BVk" id="hf9-OO-THw"/>
+                        <outlet property="titulo" destination="aMj-Fo-vCc" id="5V3-ZW-dV2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zzI-57-TFE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160" y="63"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GrisFondo">
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Negro">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nivel Compresion View Controller-->
+        <scene sceneID="Ovv-o7-G9n">
+            <objects>
+                <viewController storyboardIdentifier="nivelCompresionStoryboard" id="cqd-6j-Olr" customClass="NivelCompresionViewController" customModule="ILovePdfInterview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7d4-RO-rcX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="egO-yu-SmL">
+                                <rect key="frame" x="0.0" y="44" width="414" height="754"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="cqd-6j-Olr" id="zCq-UH-B0h"/>
+                                    <outlet property="delegate" destination="cqd-6j-Olr" id="dzh-rx-wBU"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFd-Nl-7FV">
+                                <rect key="frame" x="16" y="798" width="382" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="f27-tY-x1w">
+                                        <variation key="heightClass=regular" constant="72"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="48"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onComprimirSelected:" destination="cqd-6j-Olr" eventType="touchUpInside" id="AC5-Sw-ncb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FdO-RB-A4Q"/>
+                        <color key="backgroundColor" name="GrisFondo"/>
+                        <constraints>
+                            <constraint firstItem="JFd-Nl-7FV" firstAttribute="top" secondItem="egO-yu-SmL" secondAttribute="bottom" id="QSZ-dB-D2n"/>
+                            <constraint firstItem="FdO-RB-A4Q" firstAttribute="bottom" secondItem="JFd-Nl-7FV" secondAttribute="bottom" constant="16" id="bx8-Du-JD2"/>
+                            <constraint firstItem="egO-yu-SmL" firstAttribute="top" secondItem="FdO-RB-A4Q" secondAttribute="top" id="jFW-se-5fX"/>
+                            <constraint firstItem="FdO-RB-A4Q" firstAttribute="trailing" secondItem="JFd-Nl-7FV" secondAttribute="trailing" constant="16" id="qpi-xs-u42"/>
+                            <constraint firstItem="egO-yu-SmL" firstAttribute="leading" secondItem="FdO-RB-A4Q" secondAttribute="leading" id="sg5-wZ-lBX"/>
+                            <constraint firstItem="FdO-RB-A4Q" firstAttribute="trailing" secondItem="egO-yu-SmL" secondAttribute="trailing" id="uEe-lj-8il"/>
+                            <constraint firstItem="JFd-Nl-7FV" firstAttribute="leading" secondItem="FdO-RB-A4Q" secondAttribute="leading" constant="16" id="yuU-A6-nTr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="compresionTabla" destination="egO-yu-SmL" id="5GA-76-7KA"/>
+                        <outlet property="comprimirBoton" destination="JFd-Nl-7FV" id="wO6-L3-X6Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4F-Wy-HiN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="191" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GrisFondo">
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

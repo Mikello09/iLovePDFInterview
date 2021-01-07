@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Archivos Locales View Controller-->
+        <scene sceneID="lz0-f3-DoK">
+            <objects>
+                <viewController storyboardIdentifier="archivosLocalesStoryboard" hidesBottomBarWhenPushed="YES" id="dHH-Ng-4kV" customClass="ArchivosLocalesViewController" customModule="Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AIp-an-gXF">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lwg-dQ-DXc" userLabel="SelectedFile" customClass="FileItemView" customModule="Demo" customModuleProvider="target">
+                                <rect key="frame" x="16" y="60" width="396" height="80"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="NQ1-wk-539">
+                                        <variation key="heightClass=regular" constant="160"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                                    </constraint>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l5K-da-dQt">
+                                <rect key="frame" x="16" y="828" width="396" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="kcF-bD-13t">
+                                        <variation key="heightClass=regular" constant="72"/>
+                                        <variation key="heightClass=regular-widthClass=compact" constant="48"/>
+                                    </constraint>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="onContinuarClicked:" destination="dHH-Ng-4kV" eventType="touchUpInside" id="dQh-EH-dBq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lft-Po-kxq"/>
+                        <color key="backgroundColor" name="GrisFondo"/>
+                        <constraints>
+                            <constraint firstItem="l5K-da-dQt" firstAttribute="leading" secondItem="Lft-Po-kxq" secondAttribute="leading" constant="16" id="Dre-TZ-1rQ"/>
+                            <constraint firstItem="Lwg-dQ-DXc" firstAttribute="leading" secondItem="Lft-Po-kxq" secondAttribute="leading" constant="16" id="Hs3-YJ-w47"/>
+                            <constraint firstItem="Lft-Po-kxq" firstAttribute="bottom" secondItem="l5K-da-dQt" secondAttribute="bottom" constant="16" id="IAf-RL-vRr"/>
+                            <constraint firstItem="Lft-Po-kxq" firstAttribute="trailing" secondItem="l5K-da-dQt" secondAttribute="trailing" constant="16" id="Sn3-8p-BPe"/>
+                            <constraint firstItem="Lft-Po-kxq" firstAttribute="trailing" secondItem="Lwg-dQ-DXc" secondAttribute="trailing" constant="16" id="aF2-zt-07K"/>
+                            <constraint firstItem="Lwg-dQ-DXc" firstAttribute="top" secondItem="Lft-Po-kxq" secondAttribute="top" constant="16" id="thI-Tp-Ytk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="continuarBoton" destination="l5K-da-dQt" id="XFd-WS-JXT"/>
+                        <outlet property="selectedFile" destination="Lwg-dQ-DXc" id="7oW-GJ-eIK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27X-9T-1iE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="GrisFondo">
+            <color red="0.96899998188018799" green="0.96899998188018799" blue="0.96899998188018799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
